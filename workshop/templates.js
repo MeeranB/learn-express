@@ -40,11 +40,6 @@ function newPost() {
   return layout(/*html */ `
     <h1>Add a new post</h1>
     <form action="/new-post" method="POST">
-      <label for="author">
-        Your name<span aria-hidden="true">*</span>
-      </label>
-      <input id="author" type="text" name="author" required>
-
       <label for="title">
         Post title<span aria-hidden="true">*</span>
       </label>
